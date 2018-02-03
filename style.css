@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  background-color: black;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 55%;
+  height: 300px;
+  margin-top: 110px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content .top {
+  width: 85%;
+  margin: 0 auto;
+  transition: all 1s;
+  font-size: 1.75em;
+}
+.content .medium {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  transition: all 1s;
+  font-size: 1em;
+}
+.content .bottom {
+  transition: all 1s;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.content .bottom button {
+  min-height: 38px;
+  min-width: 38px;
+  color: white;
+  background-color: black;
+  transition: all 1s;
+  font-size: 0.85em;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.content .bottom #change {
+  min-width: 80px;
+}
+
+.author {
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: white;
+}
+.author a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
